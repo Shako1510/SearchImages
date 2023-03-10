@@ -50,13 +50,11 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .photo-card {
   width: 270px;
-  padding: 10px;
+  padding: 5px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
 }
 
@@ -86,7 +84,5 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 5px;
 }/*# sourceMappingURL=index.css.map */

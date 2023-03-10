@@ -29,7 +29,7 @@ const getUrl = () => {
 };
 
 let query = '';
-const per_page = 40;
+const per_page = 20;
 let currentPage = 1;
 let url = '';
 let lightbox = null;
@@ -92,7 +92,7 @@ const addGallery = ({ isLastRender, markupGallery }) => {
         .firstElementChild.getBoundingClientRect();
 
     window.scrollBy({
-        top: cardHeight * 1,
+        top: cardHeight * 0.3,
         behavior: 'smooth',
     });
 };
